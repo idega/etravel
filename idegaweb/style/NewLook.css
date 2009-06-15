@@ -1,0 +1,547 @@
+body{
+margin: 0;
+font-family:  "Tahoma", Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+a{
+ font-weight : bold;
+ color : #0e2023;
+font-size: 11px;
+font-family:  "Tahoma", Verdana, Geneva, Arial, Helvetica, sans-serif;
+ }
+ 
+  a:hover{
+  font-weight : bold;
+  color : #0e2023;
+ font-size: 11px;
+ font-family:  "Tahoma", Verdana, Geneva, Arial, Helvetica, sans-serif;
+  }
+
+span{
+font-family:  "Tahoma", Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 11px;
+
+
+}
+
+
+
+.container{
+width: 800px;
+margin: auto;
+overflow: hidden;
+}
+
+.left{
+width: 260px;
+overflow: hidden;
+float: left;
+}
+
+.right{
+overflow: hidden;
+width: 530px;
+float: left;
+margin-bottom : 20px;
+
+}
+
+.overHeader{
+font-family: Sylfaen;
+font-size: 17px;
+font-weight: bold;
+margin-bottom: 0;
+display: block;
+width: 195px;
+}
+
+.header{
+height: 126px;
+background: #ea8035;
+border-bottom: 8px solid #0e2023;
+}
+
+.search{
+padding-left: 14px;
+width: 250px !important;
+border-left: 1px solid #0e2023;
+float: left;
+margin-right: 25px;
+background: url(/idegaweb/style/img/rightRight.gif) repeat-y;
+background-position: 246px 0;
+
+}
+
+.main{
+border-left: 1px solid #0e2023;
+float: left;
+background: url(/idegaweb/style/img/rightRight.gif) repeat-y;
+background-position: 526px 0;
+padding-left: 10px;
+padding-right: 10px;
+
+
+}
+
+.search h2{
+display: none;
+}
+
+fieldset {
+border : 0;
+}
+
+.container .right .main .searchform_backlink a{
+display: none;
+}
+
+#xextra_back_button{
+width: 44px;
+height: 44px;
+margin-left: 200px;
+margin-top: -50px;
+margin-bottom: 8px;
+background-image: url(/idegaweb/bundles/is.idega.travel.bundle/resources/images/back_01.jpg);
+}
+
+#xextra_back_button a{
+width: 100%;
+height: 100%;
+padding-right: 44px;
+padding-bottom: 28px;
+}
+
+
+
+p.fi {
+	margin-bottom: 4px;
+}
+
+p.fi label {
+	text-align: right;
+	float: left;
+	width: 90px;
+	margin-right: 5px;
+	font-size: 9px;
+}
+
+p.fi select {
+	width: 80px;
+}
+
+p.fi input, p.fi select {
+	max-width: 80px;
+	font-size: 9px;
+	border: 1px #666 solid;
+}
+
+.datepicker {
+	width : 60px;
+}
+
+.content{
+padding-top : 10px;
+}
+
+.logo {
+ position: absolute;
+ left : 20px;
+ top : 20px;
+ height : 85px;
+ width : 420px;
+ }
+ 
+ .menu{
+ overflow: hidden;
+ }
+  
+
+
+.topLeft{
+width: 250px;
+height: 10px;
+background: url(/idegaweb/style/img/topLeft.gif);
+}
+
+.bottomLeft{
+width: 250px;
+height: 13px;
+background: url(/idegaweb/style/img/bottomLeft.gif);
+float: left;
+}
+
+.topRight{
+width: 529px;
+height: 10px;
+background: url(/idegaweb/style/img/topRight2.gif);
+}
+
+.bottomRight{
+width: 530px;
+height: 12px;
+background: url(/idegaweb/style/img/bottomRight2.gif);
+float: left;
+}
+
+.sb_header_text {
+ font-weight : bold;
+font-size: 11px;
+font-family: "Tahoma", sans-serif;
+ }
+ 
+
+.travel_HeaderText{
+ font-weight : bold;
+font-size: 11px;
+font-family: "Tahoma", sans-serif;
+}
+
+ 
+.sbrowser_background_line{
+padding-top: 1px;
+background-color: #488385;
+border-bottom : 5px solid #fff;;
+}
+
+ .sbrowser_checkout {
+ width : 56px;
+ }
+
+.travel_BackgroundHeaderColor{
+background: transparent;
+}
+
+.travel_BackgroundColorBlue{
+background: #488385;
+}
+
+ .basket {
+ float : right;
+ height : 40px;
+ width : 100px;
+ margin-top : 85px;
+ margin-right : 20px;
+ }
+
+
+.basketLink span{
+float: left;
+text-decoration: none;
+padding-bottom: 5px;
+padding-top: 7px;
+font-size: 16px;
+display: block;
+}
+
+.basketLink{
+text-decoration: none;
+}
+
+.basketLink:hover{
+text-decoration: none;
+font-size: 16px;
+}
+
+.basketLink img{
+float: left;
+}
+
+.supplier_browser .info{
+width: 510px;
+overflow: hidden;
+display: block;
+margin-bottom: 20px;
+}
+
+.supplier_browser .info h2{
+	margin :0;
+	margin-bottom : 5px;
+}
+
+
+.supplier_browser .info img{
+width: 60px;
+float: left;
+clear: none;
+}
+
+.supplier_browser .info .sbrowser_detaillink{
+float: left;
+clear: right;
+clear: both;
+display: block;
+padding: 0 !important;
+}
+
+.supplier_browser .info table.priceTable{
+float: left;
+clear both;
+display: block;
+margin-top: 20px;
+margin-left: -30px;
+}
+
+
+
+.supplier_browser .info span.title{
+float: left;
+clear: right;
+margin-left: 5px;
+font-weight: bold;
+}
+
+.supplier_browser .info div.description{
+float: left;
+clear: none;
+width: 350px;
+margin-left: 5px;
+
+}
+
+h2{
+font-size: 16px
+}
+
+table.priceTable{
+margin-left: 0 !important;
+}
+
+.priceTable .price_per_unit {
+text-align : right;
+}
+
+td.prices .extraInputText{
+width: 50px;
+display: block;
+float: left;
+clear: left;
+margin: 15px 0 0 5px;
+}
+
+td.prices input,
+td.prices select{
+margin-top: 10px;
+}
+
+.sb_link_container{
+width: 80px;
+float: left;
+
+
+}
+
+
+.sb_link_container a{
+float: right;
+clear: both;
+padding-bottom: 3px;
+}
+
+.bookingItem{
+margin-top: 20px;
+}
+
+.bookingItem textarea{
+width: 400px;
+height: 75px;
+}
+
+.bookingItem label{
+display: block;
+}
+
+
+.sbrowser_addlink {
+	height : 40px;
+	width : 50px;
+	padding-right : 5px;
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/en.locale/newbuttons/book.png");
+	background-repeat: no-repeat;
+}
+
+.sbrowser_addlink._IS{
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/is_IS.locale/newbuttons/book.png");
+}
+
+
+.sbrowser_addlink a{
+	width : 100px;
+	height : 40px;
+	display : block;
+}
+
+.sbrowser_addlink a span {
+	display : none;
+}
+
+
+.sbrowser_checkout {
+	height : 40px;
+	width : 50px;
+	mergin-left : 5px;
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/en.locale/newbuttons/checkout.png");
+	background-repeat: no-repeat;
+}
+
+.sbrowser_checkout._IS{
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/is_IS.locale/newbuttons/checkout.png");
+}
+
+
+.sbrowser_checkout a{
+	width : 100px;
+	height : 40px;
+	display : block;
+}
+
+.sbrowser_checkout a span {
+	display : none;
+}
+
+.sbrowser_backlink {
+	height : 40px;
+	width : 50px;
+	padding-right : 5px;
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/en.locale/newbuttons/back.png");
+	background-repeat: no-repeat;
+}
+
+.sbrowser_backlink._IS{
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/is_IS.locale/newbuttons/back.png");
+}
+
+.sbrowser_backlink a{
+	width : 100px;
+	height : 40px;
+	display : block;
+}
+
+.sbrowser_backlink a span {
+	display : none;
+}
+
+.sbrowser_detaillink {
+	height : 40px;
+	width : 50px;
+	margin : 0 0 10px 40px;
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/en.locale/newbuttons/book.png");
+	background-repeat: no-repeat;
+}
+
+.sbrowser_detaillink._IS{
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/is_IS.locale/newbuttons/book.png");
+}
+
+.sbrowser_detaillink a{
+	width : 100px;
+	height : 40px;
+	display : block;
+}
+
+.sbrowser_detaillink a span {
+	display : none;
+}
+.verisign {
+	margin-top : 20px;
+	text-align : center;
+	width: 250px;
+	height: 61px;
+	float: left;
+}
+
+.sbrowser_checkout {
+	height : 40px;
+	width : 50px;
+	margin-left : 5px;
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/en.locale/newbuttons/checkout.png");
+	background-repeat: no-repeat;
+}
+
+.sbrowser_checkout._IS{
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/is_IS.locale/newbuttons/checkout.png");
+}
+
+
+.sbrowser_checkout a{
+	width : 40px;
+	height : 40px;
+	display : block;
+}
+
+.sbrowser_checkout a span {
+	display : none;
+}
+
+
+.searchform_backlink {
+	height : 40px;
+	width : 40px;
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/en.locale/newbuttons/back.png");
+	background-repeat: no-repeat;
+}
+.searchform_backlink._IS{
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/is_IS.locale/newbuttons/back.png");
+}
+
+
+.searchform_backlink a{
+	width : 40px;
+	height : 40px;
+	display : block;
+}
+
+.searchform_backlink a span {
+	display : none;
+}
+
+.searchform_submitlink {
+	height : 40px;
+	width : 40px;
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/en.locale/newbuttons/confirm.png");
+	background-repeat: no-repeat;
+}
+.searchform_submitlink._IS{
+	background-image : url("/idegaweb/bundles/is.idega.travel.bundle/resources/is_IS.locale/newbuttons/confirm.png");
+}
+
+.searchform_submitlink img{
+	display : none;
+}
+
+
+.searchform_submitlink a{
+	width : 40px;
+	height : 40px;
+	display : block;
+}
+
+.searchform_submitlink a span {
+	display : none;
+}
+
+
+
+
+
+/*For your IE's only */
+
+* html .topRight{
+background-repeat: no-repeat;
+margin-bottom: -4px;
+}
+
+* html .topLeft{
+background-repeat: no-repeat;
+margin-bottom: -4px;
+}
+
+*html .bottomLeft{
+background-repeat: no-repeat;
+}
+
+*html .bottomRight{
+background-repeat: no-repeat;
+}
+
+/*For your IE's only - ENDS */

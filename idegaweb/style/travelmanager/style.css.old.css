@@ -1,0 +1,38 @@
+#headermenu {
+	overflow : hidden;
+	padding : 0;
+	margin : 0;
+}
+
+#headermenu li {
+	height: 19px;
+	color: #535353;
+	font-family: "Arial","Helvetica",sans-serif;
+	font-size: 10px;
+	display: block;
+	float : left;
+	background: url("img/right.gif") 100% 0 no-repeat;
+	padding: 0;
+	margin: 0;
+	margin-left: -1px;
+	list-style: none;
+	_height: 1em;
+	position: relative; 
+}
+
+
+#headermenu a {
+	color: #535353;
+	font-family: "Arial","Helvetica",sans-serif;
+	font-weight: bold;
+	display: block;
+	background: url("img/left.gif") 0 0 no-repeat;   
+	padding : 4px 10px;
+	text-decoration : none;
+	font-size: 10px;
+	_height: 1em;
+}
+
+#headermenu a:hover { 
+	color : #000;
+}

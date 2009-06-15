@@ -1,0 +1,517 @@
+<document>
+  <properties>
+    <title>eTravel Changes</title>
+    <author email="gimmi@idega.com">Grimur Jonsson</author>
+  </properties>
+  <body>
+  
+  	<release version="3.2.7" date="2008-9-19">
+		<action dev="gimmi" type="update">
+			Fixes for RE
+		</action>     
+	</release>
+  
+   	<release version="3.2.6" date="2008-07-2315">
+		<action dev="gimmi" type="update">
+			updated to travel 3.2.6, many small issues fixed
+		</action>     
+	</release>
+  
+  	<release version="3.2.5" date="2008-06-23">
+		<action dev="gimmi" type="update">
+			updated to travel 3.2.5, many small issues fixed
+		</action>     
+	</release>
+
+  	<release version="3.2.4" date="2008-06-10">
+		<action dev="eiki" type="update">
+			Speed improvements and mysql fixes.
+			updated core,trade,travel
+		</action>     
+	</release>
+	
+    <release version="3.2.3" date="2008-06-08">
+		<action dev="eiki" type="update">
+			Scroll-able Report support, changes to print.
+			Totally changed products page.
+			Numerous css changes
+		</action>     
+	</release>
+	
+    <release version="3.2.2" date="2008-06-05">
+		<action dev="eiki" type="update">
+			Version for mysql, eplatform minimum version 3.1.190
+		</action>     
+	</release>
+	
+  	<release version="3.2.1" date="2008-05-21">
+		<action dev="gimmi" type="update">
+			Travel bundle updated to 3.2.1
+				Breyta bókun böggur lagaður
+				Default product ID sett í report
+				Mánaðardropdown í Partner viewið
+				Bókatakki í report
+				Approve böggurinn
+		</action>     
+	</release>
+	
+   	<release version="3.2.0" date="2008-05-08">
+		<action dev="gimmi" type="update">
+			New server, new version (email fix)
+		</action>     
+	</release>
+   	<release version="3.1.62" date="2008-05-06">
+		<action dev="gimmi" type="update">
+			Updated to travel 3.1.62, trade 3.1.21
+		</action>     
+	</release>
+  	<release version="3.1.61" date="2008-04-23">
+		<action dev="gimmi" type="update">
+			Updated to travel 3.1.61, trade 3.1.20
+		</action>     
+	</release>
+  
+	<release version="3.1.59" date="2008-03-05">
+		<action dev="gimmi" type="update">
+			Updated to travel 3.1.60, trade 3.1.19
+		</action>     
+	</release>
+
+	<release version="3.1.57" date="2008-02-25">
+		<action dev="gimmi" type="update">
+			Updated to travel 3.1.59
+		</action>     
+	</release>
+	<release version="3.1.56" date="2007-12-20">
+		<action dev="gimmi" type="update">
+			Removed default creditcard client.
+			Cargo price designing bugfix.
+		</action>     
+	</release>
+
+	<release version="3.1.55" date="2007-12-19">
+		<action dev="gimmi" type="update">
+			Cargo price  designing.
+		</action>     
+	</release>
+
+	<release version="3.1.54" date="2007-10-23">
+		<action dev="gimmi" type="update">
+			Cargo price bugfix
+		</action>     
+	</release>
+	
+	<release version="3.1.53" date="2007-10-01">
+		<action dev="gimmi" type="update">
+			Bidlista bug
+			Booking without a person
+			Social Security Numer lookup moved forward 1 step
+		</action>     
+	</release>
+	
+  	<release version="3.1.52" date="2007-09-18">
+		<action dev="gimmi" type="update">
+			Sundurlida skyrslu
+		</action>     
+	</release>
+
+  	<release version="3.1.51" date="2007-09-03">
+		<action dev="gimmi" type="update">
+			Localization
+			Update cc booking fix.
+			Removed Comment in checkout.
+		</action>     
+	</release>
+  
+	<release version="3.1.50" date="2007-08-26">
+		<action dev="gimmi" type="update">
+			IS_DELETED and DELETED_BY columns added to booking table
+		</action>     
+	</release>
+	
+	<release version="3.1.49" date="2007-08-02">
+		<action dev="gimmi" type="update">
+			Confirm check IE bug fixed.
+			ProductReport now shows discounts...
+			Loading layers added to adding to basket form.
+		</action>     
+	</release>
+	
+  	<release version="3.1.48" date="2007-07-30">
+		<action dev="gimmi" type="update">
+			Brottfarir hópaðar saman.
+			Baldursreport : Sortering rétt, Confirmed lagað. (Confirm og Processed ná hraðara en áður)
+			Fyrirspurnarlisti. Nú er réttri röð. með fleiri dálkum. (Hægt að sjá booking date með hover)
+			Edit/Add to basket. CSS fixed a bit.
+			Edit booking. Moving booking now creates an inquiry if the target day/departure is fully booked.
+		</action>     
+	</release>
+  
+  	<release version="3.1.47" date="2007-07-26">
+		<action dev="gimmi" type="update">
+			Localization
+			Baldursreport redone
+		</action>     
+	</release>	
+  
+  	<release version="3.1.46" date="2007-07-01">
+		<action dev="gimmi" type="update">
+			Update to travel.47
+		</action>     
+	</release>
+  
+  	<release version="3.1.45" date="2007-07-01">
+		<action dev="gimmi" type="update">
+			New report, SupplierProductBookingReport
+		</action>     
+	</release>
+  	<release version="3.1.44" date="2007-06-26">
+		<action dev="gimmi" type="fix">
+			Fixed the getMAxDay thing a bit
+		</action>     
+	</release>
+  	<release version="3.1.43" date="2007-06-18">
+		<action dev="gimmi" type="update">
+			New dwr version
+			Fixed getMaxDay method for Tours
+		</action>     
+	</release>
+  	<release version="3.1.42" date="2007-06-14">
+		<action dev="gimmi" type="update">
+			Fixed a bug with departure address caching
+			Fixed getting addresses in use a certain date method
+		</action>     
+	</release>
+	
+	<release version="3.1.41" date="2007-06-05">
+		<action dev="gimmi" type="update">
+			SupplierProductReport updated.
+			BookingProcessReport updated.
+			Added includePast settings to SupplierBrowser.
+			Fixed DayByDay.
+		</action>
+	</release>
+	
+  	<release version="3.1.40" date="2007-06-03">
+		<action dev="gimmi" type="update">
+			New report (ProductList)
+		</action>
+	</release>
+	
+  	<release version="3.1.39" date="2007-05-31">
+		<action dev="gimmi" type="update">
+			Order á price Categories
+			Booking info is stored in session while there is something in the basket
+			User dropdown
+		</action>
+	</release>
+	
+	<release version="3.1.38" date="2007-05-30">
+		<action dev="gimmi" type="update">
+			update to the cargo dropdowns in the SupplierBrowser
+		</action>
+	</release>
+	<release version="3.1.37" date="2007-04-28">
+		<action dev="gimmi" type="update">
+			Update booking improved a lot
+		</action>
+	</release>
+	<release version="3.1.36" date="2007-04-23">
+		<action dev="gimmi" type="update">
+			Caching and speed issues addressed
+		</action>
+	</release>
+	<release version="3.1.35" date="2007-04-18">
+		<action dev="gimmi" type="update">
+			Timeframe and address column added to ProductDayInfo
+		</action>
+		<action dev="gimmi" type="update">
+			plenty of small bugfixes
+		</action>
+	</release>
+	
+	<release version="3.1.34" date="2007-04-04">
+		<action dev="gimmi" type="update">
+			update bookings and cancellation
+		</action>
+	</release>
+
+	<release version="3.1.33" date="2007-03-30">
+		<action dev="gimmi" type="add">
+			TransportCargo size is now adjustable
+		</action>
+		<action dev="gimmi" type="add">
+			New report, BookingProcessReport
+		</action>
+	</release>
+
+	<release version="3.1.32" date="2007-03-12">
+		<action dev="gimmi" type="add">
+			Discount feature to the basket added.
+		</action>
+	</release>
+
+	<release version="3.1.31" date="2007-02-21">
+		<action dev="gimmi" type="update">
+			Minor transport fixes
+		</action>
+	</release>
+
+	<release version="3.1.30" date="2007-02-06">
+		<action dev="gimmi" type="update">
+			New Type : Transport
+		</action>
+		<action dev="gimmi" type="update">
+			PriceCategory values are now Float
+		</action>
+		<action dev="gimmi" type="add">
+			New supplier inquiry list
+		</action>
+	</release>
+	
+	<release version="3.1.29" date="2006-12-15">
+		<action dev="gimmi" type="update">
+			New selection in Administrator report. Suppliers with a merchant id.
+		</action>     
+	</release>
+	
+	<release version="3.1.28" date="2006-11-04">
+		<action dev="gimmi" type="fix">
+			Addressdropdown no longer visible when there is only 1 address
+		</action>     
+		<action dev="gimmi" type="fix">
+			Added a utility to check for missing prices
+		</action>     
+	</release>
+	<release version="3.1.27" date="2006-11-03">
+		<action dev="gimmi" type="add">
+			Added PriceEntries to the BasketView
+		</action>     
+	</release>
+	
+	<release version="3.1.26" date="2006-10-31">
+		<action dev="gimmi" type="fix">
+			Price hiding in vouchers and email fixed
+		</action>     
+		<action dev="gimmi" type="update">
+			added voucher and itinerary link to email
+		</action>     
+	</release>
+	<release version="3.1.25" date="2006-10-17">
+		<action dev="gimmi" type="update">
+			Small minor fixes, creditcard block updated 3.1.7
+		</action>     
+	</release>
+
+	<release version="3.1.24" date="2006-10-13">
+		<action dev="gimmi" type="update">
+			Small minor fixes
+		</action>     
+	</release>
+
+	<release version="3.1.23" date="2006-10-11">
+		<action dev="gimmi" type="update">
+			new webservices
+		</action>     
+	</release>
+
+	<release version="3.1.22" date="2006-10-05">
+		<action dev="gimmi" type="fix">
+			Fixed a bug the the refund form
+		</action>
+	</release>
+		<release version="3.1.21" date="2006-10-04">
+		<action dev="gimmi" type="fix">
+			Fixed the location of the currency in the total line of the checkout form
+		</action>
+	</release>
+
+	<release version="3.1.20" date="2006-10-03">
+		<action dev="gimmi" type="add">
+			Added possibilities to set the search plugin within the search form, and set the resultPage in the builder
+		</action>
+	</release>
+
+	<release version="3.1.19" date="2006-09-28">
+		<action dev="gimmi" type="fix">
+			Updated to Creditcard block version 3.1.5, new method for getting the expirtdate string formatted correctly.
+		</action>     
+		<action dev="gimmi" type="update">
+			Emails changed a bit.
+		</action>
+		<action dev="gimmi" type="update">
+			Voucher settings and changes added.
+		</action>
+	</release>
+	
+	<release version="3.1.18" date="2006-09-27">
+		<action dev="gimmi" type="fix">
+			Attempt to fix missing bookings in the reports
+		</action>
+	</release>
+
+	<release version="3.1.17" date="2006-09-26">
+		<action dev="gimmi" type="update">
+			Added a method for getting grouped PriceCategories, filtering out those that dont have a price.
+		</action>
+	</release>
+
+	<release version="3.1.16" date="2006-09-22">
+		<action dev="gimmi" type="update">
+			Fixed price displaying
+		</action>
+	</release>
+
+	<release version="3.1.15" date="2006-09-20">
+		<action dev="gimmi" type="update">
+			PriceCategory update
+		</action>
+	</release>
+
+	<release version="3.1.14" date="2006-09-10">
+		<action dev="gimmi" type="update">
+			fixes for the package update
+		</action>
+	</release>
+
+	<release version="3.1.13" date="2006-09-09">
+		<action dev="gimmi" type="add">
+			Packages
+		</action>
+		<action dev="gimmi" type="add">
+			Booking Fee
+		</action>
+	</release>
+
+	<release version="3.1.12" date="2006-08-14">
+		<action dev="gimmi" type="add">
+			Booking fee
+		</action>
+		<action dev="gimmi" type="update">
+			Partner and Travel Agents updated
+		</action>
+		<action dev="gimmi" type="add">
+			Added a multiday TAB for the bookingstaffs
+		</action>
+		<action dev="gimmi" type="add">
+			Mynt í supplierbrowser tengt CurrencyEditor
+		</action>
+		<action dev="gimmi" type="add">
+			Info added to supplier email
+		</action>
+		<action dev="gimmi" type="fix">
+			Added new column to booking table to fix the cannot create voucher error
+		</action>
+		<action dev="gimmi" type="add">
+			Added Logged is as info
+		</action>
+		<action dev="gimmi" type="add">
+			Added Product name to travel window.. if it applies.
+		</action>
+	</release>
+	<release version="3.1.11" date="2006-07-31">
+		<action dev="gimmi" type="fix">
+			Fixed the CurrencyEditor
+		</action>     
+	</release>
+
+	<release version="3.1.10" date="2006-07-18">
+		<action dev="gimmi" type="fix">
+			Currency in cancellation form is now shown
+		</action>
+		<action dev="gimmi" type="add">
+			Localization for coach tours.
+		</action>
+		<action dev="gimmi" type="fix">
+			CurrencyEditor now show status of the current update, and cant be used again until its finished.
+		</action>
+		<action dev="gimmi" type="fix">
+			BookingVerifier now display Itineraries again
+		</action>
+		<action dev="gimmi" type="fix">
+			SupplierManager logo is show for the all users...
+		</action>
+	</release>
+	
+	<release version="3.1.9" date="2006-07-11">
+		<action dev="gimmi" type="add">
+			new currencies, SEK and NOK
+		</action>     
+	</release>
+
+	<release version="3.1.8" date="2006-07-10">
+		<action dev="gimmi" type="fix">
+			Fixed a bug with the checkout button in the Basket, again
+		</action>
+		<action dev="gimmi" type="fix">
+			Updated creditcard to 3.1.3.
+		</action>
+	</release>
+	<release version="3.1.7" date="2006-07-07">
+		<action dev="gimmi" type="fix">
+			Fixed a bug with the checkout button in the Basket
+		</action>
+	</release>
+  	<release version="3.1.6" date="2006-07-04">
+  		<action dev="gimmi" type="fix">
+			ProductPrice cache is now cleared then the PriceCategories are edited.
+		</action>
+		<action dev="gimmi" type="fix">
+			Selected currency is now shown in the price editor.
+		</action>
+		<action dev="gimmi" type="fix">
+			Fixed , and . in the CurrencySetter form.
+		</action>
+	</release>
+  
+  	<release version="3.1.5" date="2006-07-03">
+		<action dev="gimmi" type="update">
+			Updated Core, Trade and Creditcard to version 3.1.2, and Basket to version 3.1.1
+		</action>     
+		<action dev="gimmi" type="add">
+			Each user can not set their favorite TOURS book directly from MY PAGE
+		</action>
+	</release>
+	
+  	<release version="3.1.4" date="2006-07-01">
+		<action dev="gimmi" type="add">
+			Added the function 'Currency Setter'.
+		</action>
+		<action dev="gimmi" type="update">
+			Trade and Creditcard bundle updated to 3.1.1
+		</action>
+		<action dev="gimmi" type="add">
+			PNG behaviour fix for IE.
+		</action>
+	</release>
+  
+ 	<release version="3.1.3" date="2006-06-28">
+		<action dev="gimmi" type="fix">
+			Added IE fix for png images.
+		</action>
+		<action dev="gimmi" type="update">
+			The SupplierBrowser has been updated.
+		</action>
+		<action dev="gimmi" type="fix">
+			Booking in the eTravel basket form will no longer cause all booking to be unverified, only those who should be.
+		</action>
+	</release>
+
+ 	<release version="3.1.2" date="2006-06-27">
+		<action dev="gimmi" type="update">
+			Travel block updated to 3.1.2
+		</action>     
+	</release>
+ 	<release version="3.1.1" date="2006-06-27">
+		<action dev="gimmi" type="fix">
+			Travel block updated to 3.1.1
+		</action>     
+	</release>
+      <release version="3.1.0" date="2006-06-27">
+		  <action dev="gimmi" type="update">
+			Released module built on ePlatform 3.1
+	      </action>     
+    </release>
+
+  </body>
+</document>

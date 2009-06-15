@@ -1,0 +1,51 @@
+.travel_BackgroundColor { 
+        font-size:1px;
+        background-color:#000000;
+}
+.travel_Text {
+        font-size:10px;
+        font-weight:bold;
+        font-family:Arial,Helvetica,sans-serif;
+        color:#FFFFFF;
+}
+.travel_ErrorText {
+        font-size:10px;
+        font-family:Arial,Helvetica,sans-serif;
+        color:RED;
+}
+
+.core_OrangeText {
+        font-size:10px;
+        font-family:Arial,Helvetica,sans-serif;
+        color:#FA6013;
+}
+
+.travel_OrangeText {
+        font-size:10px;
+        font-family:Arial,Helvetica,sans-serif;
+        color:#FA6013;
+}
+
+.travel_ClickedLink {
+}
+
+.core_travel_BackgroundColor {
+}
+
+.travel_FullyBooked {
+        background-color:#F96014;
+}
+
+.travel_Today {
+        background-color:#1CA2C8;
+}
+
+.travel_Inquiry {
+}
+
+.travel_WhiteLink {
+}
+
+.travel_AvailableDay {
+        background-color:#FFFFFF;
+}

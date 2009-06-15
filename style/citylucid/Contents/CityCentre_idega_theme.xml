@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <name>CityCentre</name>
+  <styles>
+    <style>
+      <group>Colors</group>
+      <variation>Body text</variation>
+      <variable>colour_body_text</variable>
+      <color>#808080</color>
+    </style>
+    <style>
+      <group>Colors</group>
+      <variation>Title</variation>
+      <variable>colour_title</variable>
+      <color>#ffffff</color>
+    </style>
+    <style>
+      <group>Colors</group>
+      <variation>Slogan</variation>
+      <variable>colour_slogan</variable>
+      <color>#ffffff</color>
+    </style>
+    <style>
+      <group>Colors</group>
+      <variation>Links</variation>
+      <variable>colour_link</variable>
+      <color>#80a2bb</color>
+    </style>
+    <style>
+      <group>Colors</group>
+      <variation>Navigation</variation>
+      <variable>colour_navigation</variable>
+      <color>#ffffff</color>
+    </style>
+    <style>
+      <group>Colors</group>
+      <variation>Headers</variation>
+      <variable>colour_header</variable>
+      <color>#6f6f6f</color>
+    </style>
+    <style>
+      <group>Layout</group>
+      <variation>Two columns</variation>
+    </style>
+    <style>
+      <group>Logo</group>
+      <variation>Show</variation>
+    </style>
+  </styles>
+  <preview>CityCentre_theme_preview.png</preview>
+  <small-preview>CityCentre_small_theme_preview.png</small-preview>
+  <page-id>38</page-id>
+</theme>
+

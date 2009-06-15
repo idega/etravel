@@ -1,0 +1,1058 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 11px;
+	background-color: #fff;
+	font-family: "Tahoma", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+img {
+	border: 0;
+}
+
+h1 {
+	margin: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 14px;
+	color: #feaf00;
+}
+
+/* Big boxes */
+.bigBox {
+	width: 744px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.bigBox .top {
+	height: 21px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/files/cms/themes/CityCentre.rwtheme/CityCentre.rwtheme/Contents/images/backgrounds/body-top.png',sizingMethod='scale');
+}
+
+html>body .bigBox .top {
+	filter: none;
+	background: url(images/backgrounds/body-top.png) top left no-repeat;
+}
+
+.bigBox .content {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/files/cms/themes/CityCentre.rwtheme/CityCentre.rwtheme/Contents/images/backgrounds/body-tiler.png',sizingMethod='scale');
+	padding: 0 17px;
+	position: relative;
+	width: 710px;
+}
+
+html>body .bigBox .content {
+	background: url(images/backgrounds/body-tiler.png) top left repeat-y;
+	filter: none;
+}
+
+.bigBox .content .innerContent {
+	float: left;
+	width: 710px;
+	position: relative;
+	margin-top: -4px;
+	margin-bottom: -4px;
+	background: none;
+	overflow: hidden;
+}
+
+html>body .bigBox .content .innerContent {
+	height: auto;
+}
+
+.bigBox .bottom {
+	height: 21px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/files/cms/themes/CityCentre.rwtheme/CityCentre.rwtheme/Contents/images/backgrounds/body-bottom.png',sizingMethod='scale');
+}
+
+html>body .bigBox .bottom {
+	background: url(images/backgrounds/body-bottom.png) top left no-repeat;
+	filter: none;
+}
+
+/* Top content */
+#topContent {
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}
+
+#topContent #title, #topContent #logo {
+	float: left;
+	width: 196px;
+	height: 77px;
+	background: url(images/backgrounds/title-background.gif) top left no-repeat;
+	overflow: hidden;
+	text-align: center;
+	display: none;
+}
+
+#topContent #logo {
+	background: none;
+	display: block;
+	text-align: center;
+}
+
+#topContent #title .title {
+	display: block;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 18px;
+	line-height: normal;
+}
+
+#topContent #title .slogan {
+	display: block;
+	text-transform: uppercase;
+	font-size: 8px;
+	font-weight: bold;
+}
+
+#topContent ul {
+	margin: 0;
+	padding: 0;
+	margin-top: 3px;
+	margin-left: -5px;
+	padding-left: 11px;
+	padding-top: 7px;
+	padding-bottom: 11px;
+	clear: both;
+	background: url(images/backgrounds/navigation-background.gif) top left no-repeat;
+	list-style: none;
+}
+
+#topContent ul li {
+	font-size: 14px;
+	line-height: 24px;
+	width: 199px;
+	overflow: hidden;
+}
+
+#topContent ul ul {
+	display: none;	
+}
+
+#topContent ul li a {
+	text-decoration: none;
+	padding-left: 37px;
+	display: block;
+}
+
+#topContent ul li a.first {
+	padding-top: 4px;
+}
+
+#topContent ul li a.current {
+	background: url(images/backgrounds/navigation-selected-background.gif) top left no-repeat;
+}
+
+#topContent ul li a.firstCurrent {
+	background-image: url(images/backgrounds/navigation-selected-first-background.gif);
+}
+
+#topContent ul li a.beforeCurrent {
+	background: url(images/backgrounds/navigation-before-selected-background.gif) bottom left no-repeat;
+}
+
+#topContent ul li a.afterCurrent {
+	background: url(images/backgrounds/navigation-after-selected-background.gif) top left no-repeat;
+}
+
+#banner {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* Bottom content */
+#bottomContent {
+	position: relative;
+	z-index: 1;
+	margin-top: -35px;
+}
+
+#bottomContent .sidebar {
+	float: left;
+	width: 190px;
+	display: inline;
+	margin-left: 12px;
+	overflow: hidden;
+}
+
+#bottomContent .mainContent {
+	float: right;
+	width: 502px;
+	overflow: hidden;
+}
+
+/* Articles */
+.article_item {
+	padding-bottom: 12px;
+	border-bottom: 1px #a8a8a8 solid;
+	margin-bottom: 12px;
+	margin-top: 8px;
+}
+
+.article_item_last {
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+
+.article_item .blog-entry-body img {
+}
+
+.blog-entry {
+	margin: 8px 12px 0 12px;
+	padding: 0;
+}
+
+.blog-entry-title {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: 8px;
+	color: #feaf00 !important;
+}
+
+.blog-entry-body h1, .blog-entry-body h2 {
+	font-size: 12px;
+	margin: 0;
+	text-transform: none;
+	line-height: 12px;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+.blog-entry-body {
+	line-height: 15px;
+}
+
+.blog-entry-body p {
+	margin: 0;
+	margin-bottom: 12px;
+}
+
+.blog-entry-body ul {
+	margin: 0;
+	padding-left: 16px;
+}
+
+/* Footer */
+#footer {
+	margin-left: 1px;
+	width: 708px;
+	margin-top: 7px;
+	margin-bottom: 4px;
+	clear: both;
+	background: url(images/backgrounds/footer-background.gif) top left no-repeat;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	font-family: "Tahoma", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	position: relative;
+	z-index: 2;
+}
+
+html>body #footer {
+	margin-bottom: 0px;
+}
+
+/* Universal clearer */
+.Clear {
+	clear: both;
+}
+
+/* Travel override */
+div.bookingform h2 {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: 4px;
+	color: #feaf00 !important;
+	margin-top: 8px;
+}
+
+div.bookingform fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px #a8a8a8 solid;
+	padding-top: 8px;
+	padding-bottom: 3px;
+}
+
+div.bookingform fieldset.searchFor form {
+	width: 190px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 8px;
+}
+
+html>body div.bookingform fieldset.searchFor form {
+	margin: 0;
+}
+
+div.bookingform fieldset.last {
+	border: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+div.bookingform fieldset p {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	margin-bottom: 8px !important;
+	width: 190px;
+}
+
+div.bookingform fieldset p label {
+	display: block;
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 16px;
+	width: 110px;
+}
+
+div.bookingform fieldset p.fi label, div.bookingform fieldset p.fi_supplier label {
+	float: none;
+	width: auto;
+}
+
+div.bookingform fieldset p.numberOfDays label, div.bookingform fieldset p.numberOfCars label {
+	float: left;
+	width: 110px;
+}
+
+div.bookingform fieldset p input, div.bookingform fieldset p select {
+	margin: 0;
+	border: 1px #a8a8a8 solid;
+	font-size: 10px;
+}
+
+div.bookingform fieldset p input {
+	padding: 2px 3px;
+}
+
+div.bookingform fieldset p.fi_datestart, div.bookingform fieldset p.fi_date {
+	margin: 0 !important;
+}
+
+div.bookingform fieldset table {
+	margin-bottom: 8px;
+}
+
+div.bookingform fieldset table input {
+	border: 1px #a8a8a8 solid !important;
+	width: 150px;
+	font-size: 10px !important;
+	padding: 2px 3px;
+	color: #808080 !important;
+	background-color: #efefef !important;
+}
+
+div.bookingform p.fi_buttons {
+	padding-top: 8px;
+}
+
+div.bookingform fieldset p.fi_buttons a {
+	display: block;
+	float: left;
+	background: url(images/buttons/yellow-left.gif) top left no-repeat;
+	padding-left: 14px;
+	height: 34px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	text-shadow: #000 1px 1px 1px;
+}
+
+div.bookingform fieldset p.fi_buttons a.resetbtn {
+	float: right;
+}
+
+div.bookingform fieldset p.fi_buttons a span {
+	display: block;
+	float: left;
+	background: url(images/buttons/yellow-right.gif) top right no-repeat;
+	padding-right: 23px;
+	padding-left: 5px;
+	height: 34px;
+	line-height: 26px;
+}
+
+div.bookingform p.fi_buttons input {
+	border: 0;
+	float: left;
+}
+
+div.bookingform p.fi_buttons img {
+	float: right;
+}
+
+/* Accommodation form */
+div.bookingform-accommodation .searchFor {
+	display: none;
+}
+
+/* Car form */
+div.bookingform-car .searchFor {
+	display: none;
+}
+
+/* Bus form */
+div.bookingform-bus .typeOfTour {
+	display: none;
+}
+
+div.bookingform-bus .searchFor {
+	display: none;
+}
+
+/* Horse form */
+div.bookingform-horse .typeOfTour {
+	display: none;
+}
+
+div.bookingform-horse .searchFor {
+	display: none;
+}
+
+/* Whale form */
+div.bookingform-whale .typeOfTour {
+	display: none;
+}
+
+div.bookingform-whale .searchFor {
+	display: none;
+}
+
+/* Other form */
+div.bookingform-other .searchFor {
+	display: none;
+}
+
+.sb_maindiv h1 {
+	display: none;
+}
+
+.sb_result {
+	width: 484px;
+	overflow: hidden;
+	margin-top: 4px;
+	margin-bottom: 12px;
+	border-bottom: 1px #a8a8a8 solid;
+	padding-bottom: 6px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.sb_result.last {
+	border: 0;
+	padding-bottom: 0;
+}
+
+.sb_result .sb_supplier_name h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 14px;
+	margin-bottom: 4px;
+	color: #feaf00;
+}
+
+.sb_result .sb_supplier_image {
+	float: left;
+	margin-right: 10px;
+}
+
+.sb_result .sb_supplier_image img {
+	width: 100px;
+	height: 75px;
+	border: 1px #a8a8a8 solid;
+	margin: 2px;
+}
+
+.sb_result .sb_supplier_image img:hover {
+	border-color: #80a2bb;
+	border-width: 3px;
+	margin: 0;
+}
+
+.sb_result .sb_description {
+	line-height: 15px;	
+}
+
+.sb_result .sb_link_container {
+	float: right;
+	clear: both;
+	margin-top: 8px;
+}
+
+.sb_result .sb_link_container .sbrowser_detailslink, .sb_result .sb_link_container .sbrowser_morelink {
+	float: left;	
+}
+
+.sb_result .sb_link_container a {
+	display: block;
+	float: left;
+	background: url(images/buttons/yellow-left.gif) top left no-repeat;
+	padding-left: 14px;
+	height: 34px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	text-shadow: #000 1px 1px 1px;
+}
+
+.sb_result .sb_link_container a span {
+	display: block;
+	float: left;
+	background: url(images/buttons/yellow-right.gif) top right no-repeat;
+	padding-right: 23px;
+	padding-left: 5px;
+	height: 34px;
+	line-height: 26px;
+}
+
+.supplierBrowserForm {
+	margin: 0;
+}
+
+.supplier_browser .info {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 12px;
+	overflow: hidden;
+	border-bottom: 1px #a8a8a8 solid;
+	padding-bottom: 12px;
+	margin-top: 4px;
+	margin-left: 8px;
+	margin-right: 8px;
+	width: 484px;
+}
+
+.supplier_browser .info.last {
+	border: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.supplier_browser .title {
+	margin: 0;
+	padding: 0;
+}
+
+.supplier_browser h1, .supplier_browser h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 14px;
+	margin-bottom: 8px;
+	color: #feaf00;
+	font-weight: bold;
+}
+
+.supplier_browser h1 {
+	border-bottom: 1px #efefef solid;
+	padding-bottom: 4px;
+}
+
+html>body .supplier_browser h1 {
+	border-bottom-style: dotted;
+	border-bottom-color: #ddd;
+}
+
+.supplier_browser h2 {
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+
+.supplier_browser img {
+	float: left;
+	border: 1px #a8a8a8 solid;	
+	width: 140px;
+	height: 100px;
+	margin-right: 8px;
+	margin-left: 2px;
+}
+
+.supplier_browser img:hover {
+	border-color: #80a2bb;
+	border-width: 3px;
+	margin: -2px 6px -2px 0px;
+}
+
+.supplier_browser .description {
+	font-size: 12px !important;
+	line-height: 15px;
+	padding-bottom: 2px;
+}
+
+.supplier_browser .description p {
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+
+.supplier_browser .info .productDescription {
+	clear: both;
+	padding-top: 12px;
+}
+
+.supplier_browser .info .productImages {
+	padding-top: 12px;
+	clear: both;
+	overflow: hidden;
+}
+
+.supplier_browser .info .productImages ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	width: 482px;
+}
+
+.supplier_browser .info .productImages ul li {
+	float: left;
+}
+
+.supplier_browser .info .productImages ul li img {
+	float: none;
+	width: 72px;
+	height: 72px;
+	margin: 2px 3px;
+}
+
+.supplier_browser .info .productImages ul li img:hover {
+	margin: 0px 1px;
+}
+
+.supplier_browser .info .productDepartureInfo {
+	clear: both;
+	padding-top: 12px;
+	padding-bottom: 2px;
+}
+
+.supplier_browser .info .productDepartureInfo ul {
+	margin: 0 3px;
+	padding: 0;
+	list-style: none;
+	font-size: 11px;
+}
+
+.supplier_browser .info .productDepartureInfo ul li {
+	clear: both;
+	margin-bottom: 6px;
+	line-height: 15px;
+	overflow: hidden;
+}
+
+.supplier_browser .info .productDepartureInfo ul li.last {
+	margin-bottom: 0;
+}
+
+.supplier_browser .info .productDepartureInfo input {
+	margin: 0;
+	float: left;
+	margin-top: 2px;
+	margin-right: 4px;
+}
+
+.supplier_browser .info .productDepartureInfo label {
+	float: left;
+	line-height: 15px;
+	width: 446px;
+}
+
+.supplier_browser .info .productPrices {
+	clear: both;
+}
+
+.supplier_browser .info table.priceTable {
+	clear: both;
+}
+
+.supplier_browser .info table.priceTable .miscellanious {
+	display: none;
+}
+ 
+.supplier_browser .info table.priceTable select {
+	width: 400px;
+}
+ 
+.supplier_browser .info table.priceTable td {
+	padding: 3px;
+	border-bottom: 1px #efefef solid;
+	font-size: 12px;
+}
+
+.supplier_browser .info table.priceTable tr:hover td {
+	color: #80a2bb;
+}
+
+.supplier_browser .info table.priceTable .price_per_unit {
+	white-space: nowrap;
+	text-align: right;
+	font-weight: bold;
+}
+
+.supplier_browser .sb_link_container {
+	padding-top: 16px;
+	clear: both;
+}
+
+.supplier_browser .sb_link_container .sbrowser_detaillink {
+	float: right;
+}
+
+.supplier_browser .sb_link_container .sbrowser_imagelink {
+	float: left;
+}
+
+.supplier_browser .sb_link_container a {
+	display: block;
+	float: left;
+	background: url(images/buttons/yellow-left.gif) top left no-repeat;
+	padding-left: 14px;
+	height: 34px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	text-shadow: #000 1px 1px 1px;
+}
+
+.supplier_browser .sb_link_container a span {
+	display: block;
+	float: left;
+	background: url(images/buttons/yellow-right.gif) top right no-repeat;
+	padding-right: 23px;
+	padding-left: 5px;
+	height: 34px;
+	line-height: 26px;
+}
+
+/* Basket link */
+.basketLink {
+	padding-bottom: 10px;
+	padding-top: 3px;
+	border-bottom: 1px #ddd solid;
+	margin-bottom: 14px;
+	clear: both;
+	overflow: hidden;
+}
+
+html>body .basketLink {
+	border-bottom: 1px #a8a8a8 dotted;	
+}
+
+.basketLink a {
+	text-decoration: none;
+	padding-left: 38px;
+	display: block;
+	height: 32px;
+	background: url(images/icons/basket.gif) top left no-repeat;
+}
+
+.basketLink a span {
+	display: block;
+}
+
+.basketLink a span.basketLinkTitle {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-bottom: 2px;
+	padding-top: 4px;
+	color: #feaf00;
+	font-weight: bold;
+}
+
+.basketLink a span.basketLinkItems {
+	text-transform: uppercase;
+	color: #a8a8a8;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+/* Booking form */
+div.product_booking_form {
+	margin-top: 5px;
+	margin-left: 8px;
+	margin-right: 8px;
+	width: 484px;
+}
+
+div.product_booking_form table {
+	margin-bottom: 12px;
+}
+
+div.product_booking_form table th {
+	text-align: left;
+	border-bottom: 1px #a8a8a8 solid;
+}
+
+div.product_booking_form table td.miscellanious {
+	font-weight: bold;
+	border-bottom: 1px #a8a8a8 solid;
+	border-top: 1px #a8a8a8 solid;
+}
+
+div.product_booking_form table th.price_per_unit, div.product_booking_form table td.price_per_unit {
+	text-align: right;
+}
+
+div.product_booking_form table th.unit_name, div.product_booking_form table td.unit_name {
+	text-align: center;
+}
+
+div.product_booking_form table tfoot td {
+	text-align: left;
+	border-top: 1px #a8a8a8 solid;
+	font-weight: bold;
+}
+
+div.product_booking_form table td input {
+	border: 1px #a8a8a8 solid;
+	font-size: 12px;
+	text-align: right;
+	padding: 2px 3px;
+}
+
+div.product_booking_form table td.sum input {
+	padding: 0;
+	border: 0;
+	background: #fff;
+	text-align: right;
+	font-weight: bold;
+	font-size: 12px;
+	color: #808080 !important;
+	font-family: "Tahoma", Arial, Helvetica, sans-serif;
+}
+
+div.product_booking_form table th, div.product_booking_form table td {
+	white-space: nowrap;
+	padding: 3px 5px !important;
+	font-size: 12px !important;
+}
+
+div.product_booking_form table th span, div.product_booking_form table td span {
+	padding: 0;
+	margin: 0;
+}
+
+div.product_booking_form table th.sum, div.product_booking_form table td.sum {
+	text-align: right;
+}
+
+div.product_booking_form table th.prices, div.product_booking_form table td.prices {
+	width: 100%;
+}
+
+div.product_booking_form div.formItem, div.product_booking_form div.bookingItem {
+	overflow: hidden;
+	margin-bottom: 12px;
+	width: 482px;
+}
+
+div.product_booking_form div.formItem label, div.product_booking_form div.bookingItem label {
+	float: left;
+	font-weight: bold;
+	line-height: 18px;
+	width: 140px;
+	margin-left: 5px;
+}
+
+div.product_booking_form div.formItem span, div.product_booking_form div.bookingItem span {
+	float: left;
+	width: 330px;
+	line-height: 13px;
+	margin-top: 2px;
+	font-size: 11px;
+}
+
+div.product_booking_form div.formItem input, div.product_booking_form div.bookingItem input {
+	border: 1px #a8a8a8 solid;
+	padding: 2px 3px;
+	margin: 0;
+}
+
+div.product_booking_form div.formItem textarea, div.product_booking_form div.bookingItem textarea {
+	border: 1px #a8a8a8 solid;
+	width: 300px;
+	height: 80px;
+	margin: 0;
+}
+
+div.product_booking_form div.formItem select, div.product_booking_form div.bookingItem select {
+	border: 1px #a8a8a8 solid;
+	margin: 0;
+}
+
+div.product_booking_form div.number_of_days input {
+	width: 50px;
+}
+
+div.product_booking_form div.bookingOptions span {
+	display: none;
+}
+
+.product_booking_form div.buttons {
+	overflow: hidden;
+	padding: 0 5px;
+	padding-top: 6px;
+	padding-right: 0;
+}
+
+.product_booking_form a {
+	display: block;
+	float: left;
+	background: url(images/buttons/yellow-left.gif) top left no-repeat;
+	padding-left: 14px;
+	height: 34px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	text-shadow: #000 1px 1px 1px;
+}
+
+.product_booking_form a span {
+	display: block;
+	float: left;
+	background: url(images/buttons/yellow-right.gif) top right no-repeat;
+	padding-right: 23px;
+	padding-left: 5px;
+	height: 34px;
+	line-height: 26px;
+}
+
+.product_booking_form .sbrowser_addlink {
+	float: right;
+}
+
+/* Basket */
+.travel_basket_form {
+	margin: 0 8px;
+	margin-top: 5px;
+}
+
+.travel_basket_form h1 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 14px;
+	margin-bottom: 8px;
+	color: #feaf00;
+	font-weight: bold;
+}
+
+.travel_basket_form table th {
+	text-align: left;
+	padding: 3px 5px;
+}
+
+.travel_basket_form table tbody td {
+	border-top: 1px #a8a8a8 solid;
+}
+
+.travel_basket_form table tr.bookingEntry td {
+	font-size: 10px;
+	border-top: 1px #ddd solid;
+	color: #a8a8a8;
+}
+
+html>body .travel_basket_form table tr.bookingEntry td {
+	border-top: 1px #ddd dotted;	
+}
+
+.travel_basket_form table tfoot td {
+	border-top: 1px #a8a8a8 solid;
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+.travel_basket_form table th, .travel_basket_form table td {
+	padding: 3px 5px;
+	font-size: 11px;
+	vertical-align: top;
+}
+
+.travel_basket_form table td.remove a {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/files/cms/themes/CityCentre.rwtheme/CityCentre.rwtheme/Contents/images/icons/delete.png',sizingMethod='scale');
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+html>body .travel_basket_form table td.remove a {
+	background: url(images/icons/delete.png) top left no-repeat;
+	filter: none;
+}
+
+.travel_basket_form table td.remove {
+	padding-left: 0;
+}
+
+.travel_basket_form table td.remove span {
+	display: none;
+}
+
+.travel_basket_form table td.units, .travel_basket_form table td.dates, .travel_basket_form table td.amount, .travel_basket_form table td.price, .travel_basket_form table td.count {
+	white-space: nowrap;
+}
+
+.travel_basket_form table td.price, .travel_basket_form td.amount {
+	text-align: right;
+}
+
+.travel_basket_form table tr.bookingEntry td.productName {
+	padding-left: 15px;
+}
+
+.travel_basket_form .sbrowser_checkout {
+	margin-top: 12px;
+}
+
+.travel_basket_form .sbrowser_checkout a {
+	display: block;
+	float: left;
+	background: url(images/buttons/yellow-left.gif) top left no-repeat;
+	padding-left: 14px;
+	height: 34px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	text-shadow: #000 1px 1px 1px;
+}
+
+.travel_basket_form .sbrowser_checkout a span {
+	display: block;
+	float: left;
+	background: url(images/buttons/yellow-right.gif) top right no-repeat;
+	padding-right: 23px;
+	padding-left: 5px;
+	height: 34px;
+	line-height: 26px;
+}
+
+.travel_basket_form .sbrowser_checkout {
+	float: right;
+}	

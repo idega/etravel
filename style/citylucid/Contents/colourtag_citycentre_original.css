@@ -1,0 +1,27 @@
+body {
+	color: %colour_body_text%;
+}
+
+a {
+	color: %colour_link%;
+}
+
+h1, .blog-entry-body h1 {
+	color: %colour_header%;	
+}
+
+.blog-entry-title {
+	color: %colour_blog_entry_title%;
+}
+
+#topContent #title .title {
+	color: %colour_title%;	
+}
+
+#topContent #title .slogan {
+	color: %colour_slogan%;	
+}
+
+#topContent ul li a {
+	color: %colour_navigation%;
+}

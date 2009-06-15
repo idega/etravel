@@ -1,0 +1,12 @@
+
+/* CSS Document */
+
+#bottomContent .sidebar {
+	display: none;	
+}
+
+#bottomContent .mainContent {
+	float: left;
+	width: 708px;
+	margin-left: 1px;
+}

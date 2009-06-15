@@ -1,0 +1,8 @@
+body {
+        padding : 0;
+        margin : 0;
+        text-align : center;
+        font-family : Helvetica, Arial;
+        font-size : 11px;
+        background : url("../img/bw-bak.gif") 50% 0 repeat-y
+}

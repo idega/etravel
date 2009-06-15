@@ -1,0 +1,7 @@
+#topContent #logo {
+	display: block !important;
+}
+
+#topContent #title {
+	display: none;	
+}
