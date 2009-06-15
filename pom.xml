@@ -9,7 +9,7 @@
 	</parent>
 	<name>ePlatform</name>
 	<groupId>com.idega.webapp.custom</groupId>
-	<artifactId>eTravel</artifactId>
+	<artifactId>etravel</artifactId>
 	<packaging>iwwar</packaging>
 	<version>4.1.3-SNAPSHOT</version>
 	<description>Idega Travel Booking</description>
