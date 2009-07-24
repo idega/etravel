@@ -520,59 +520,6 @@ display: block;
 	display : none;
 }
 
-.inquiry_info {
-    width:500px;
-    border: 1px solid blue;
-    padding:0px;
-    padding-bottom:2px;
-}
-
-
-.inquiry_info h2 {
-    background-color: blue;
-    color: white;
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    margin:0px;
-    padding: 5px;
-    padding-top:3px;
-}
-
-
-.inquiry_info span {
-    font-size: 13px;
-    padding: 5px;
-}
-
-.cat_info {
-    width:300px;
-    border: 1px solid blue;
-    padding:0px;
-    padding-bottom:2px;
-    display: block;
-    margin-top:20px;
-}
-
-
-.cat_info span.header {
-    background-color: blue;
-    color: white;
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    margin:0px;
-    padding: 5px;
-    padding-top:3px;
-    border: 0px;
-    height:25px;
-}
-
-
-.cat_info span.body {
-    font-size: 13px;
-    padding: 5px;
-}
 
 
 
